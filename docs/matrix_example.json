@@ -1,0 +1,17 @@
+﻿{
+  "matrix_name": "Windows_to_Astra_Security_Policies",
+  "version": "0.1.0",
+  "created": "2024-12-18",
+  "author": "Милена Мисриханова",
+  
+  "policies": [
+    {
+      "id": "POL-001",
+      "windows_name": "MinimumPasswordLength",
+      "windows_path": "Account Policies\\Password Policy",
+      "astra_component": "PAM",
+      "astra_parameter": "pam_pwquality.minlen",
+      "transformation": "direct_copy"
+    }
+  ]
+}
