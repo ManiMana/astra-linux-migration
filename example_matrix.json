@@ -1,0 +1,16 @@
+﻿{
+  "example_policies": [
+    {
+      "windows": "MinimumPasswordLength",
+      "astra": "pam_pwquality.minlen",
+      "type": "direct_copy",
+      "note": "Минимальная длина пароля"
+    },
+    {
+      "windows": "PasswordHistorySize", 
+      "astra": "pam_pwquality.remember",
+      "type": "direct_copy",
+      "note": "История паролей"
+    }
+  ]
+}
