@@ -1,12 +1,6 @@
-﻿# Astra Linux Migration Tool
+﻿# Инструмент миграции
 
-Tool for automated migration of security policies from Windows Server to Astra Linux.
+## Матрица соответствия (пример)
+Структура матрицы разработана. Пример правил: [example_matrix.json](example_matrix.json)
 
-## 📋 Project Overview
-This project aims to simplify the migration process from Windows Server to Astra Linux by automatically converting security policies (GPO, AppLocker, Firewall rules) into Astra Linux configuration (PARSEC, Zamok, PAM).
-
-## 🏗️ Architecture
-![Architecture Diagram](images/architecture.png)
-
-## 👤 Author
-Милена Мисриханова, НИУ ВШЭ, Астра-Стипендия
+Полная версия на основном компьютере, будет загружена позже.
